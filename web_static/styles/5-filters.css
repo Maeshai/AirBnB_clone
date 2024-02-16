@@ -1,0 +1,72 @@
+/* Styling the filters section */
+section.filters {
+    color: #FFFFFF;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling buttons inside the filters section */
+section.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+/* Adding hover effect to buttons */
+section.filters button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Styling location and amenities divs */
+div.location,
+div.amenities {
+    color: #272424;
+    height: 100%;
+}
+
+/* Styling location div */
+div.location {
+    flex-basis: 25%;
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.4rem;
+}
+
+/* Styling amenities div */
+div.amenities {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Styling h3 headings in location and amenities divs */
+div.location h3,
+div.amenities h3 {
+    margin: 0.3rem;
+    margin-left: 2.3rem;
+    font-weight: 600;
+}
+
+/* Styling h4 headings in location and amenities divs */
+div.location h4,
+div.amenities h4 {
+    margin: 0.3rem;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 2.3rem;
+}

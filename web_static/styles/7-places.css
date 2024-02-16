@@ -1,0 +1,28 @@
+/* Styling for the places section */
+section.places {
+    padding-inline: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* Styling for the heading within the places section */
+section.places h1 {
+    font-size: 30px;
+    flex-basis: 100%;
+}
+
+/* Styling for individual articles within the places section */
+section.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+
+/* Styling for the heading within individual articles */
+section.places article h2 {
+    font-size: 30px;
+    text-align: center;
+}
